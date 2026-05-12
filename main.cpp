@@ -44,4 +44,6 @@ int main()
         cout << hou << ":" << min << ":" << sec << " " << status;
         Sleep(1000);
     }
+
+    // TODO Add the day,the month And the year
 }
