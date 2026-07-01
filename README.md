@@ -25,6 +25,7 @@ A C++ console-based digital clock application that displays real-time updating t
    ```bash
    g++ main.cpp -o clock
 **Technical Details**
+<br/>
 Input Phase: The program prompts for the initial time (hours, minutes, seconds, AM/PM) and date (day, month, year).
 
 Cursor Positioning (\033[H): Instead of executing system("cls") repeatedly, the program utilizes the \033[H escape sequence to move the cursor back to the top-left corner, overwriting the previous frame efficiently.
@@ -32,4 +33,5 @@ Cursor Positioning (\033[H): Instead of executing system("cls") repeatedly, the 
 Time & Date Logic: Increments time step-by-step. When reaching 12:00:00 AM, the calendar day advances. Month lengths are validated through an array pre-checked against leap year conditions.
 
 **License**
+<br/>
 This project is open-source and available under the MIT License.
