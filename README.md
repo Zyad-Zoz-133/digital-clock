@@ -24,7 +24,7 @@ A C++ console-based digital clock application that displays real-time updating t
 2. Open your terminal or command prompt and compile the code:
    ```bash
    g++ main.cpp -o clock
-####Technical Details
+#Technical Details
 Input Phase: The program prompts for the initial time (hours, minutes, seconds, AM/PM) and date (day, month, year).
 
 Cursor Positioning (\033[H): Instead of executing system("cls") repeatedly, the program utilizes the \033[H escape sequence to move the cursor back to the top-left corner, overwriting the previous frame efficiently.
